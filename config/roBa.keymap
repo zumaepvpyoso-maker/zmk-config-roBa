@@ -80,6 +80,7 @@
             compatible = "zmk,behavior-sensor-rotate";
             #sensor-binding-cells = <0>;
             bindings = <&msc SCRL_DOWN>, <&msc SCRL_UP>;
+
             tap-ms = <20>;
         };
     };
@@ -132,7 +133,7 @@
         MOUSE {
             bindings = <
 &trans     &trans  &kp E   &kp R   &trans                      &trans  &trans     &trans     &trans     &trans
-&kp A      &kp S   &trans  &kp F   &trans  &trans      &trans  &trans  &mkp LCLK  &mkp MCLK  &mkp RCLK  &trans
+&kp A      &kp S   &kp D   &kp F   &trans  &trans      &trans  &trans  &mkp LCLK  &mkp MCLK  &mkp RCLK  &trans
 &kp Z      &kp X   &kp C   &kp V   &kp B   &trans      &trans  &trans  &mkp MB4   &mkp MB5   &trans     &trans
 &kp LCTRL  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                   &trans
             >;
