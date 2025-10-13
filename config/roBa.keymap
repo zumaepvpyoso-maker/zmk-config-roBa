@@ -2,10 +2,7 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/pointing.h>
-// ロータリーエンコーダ改造1
-// #includeのあとのあたりにスクロール量変更の定義を追記
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 80
-
 
 &mt {
     flavor = "balanced";
@@ -76,10 +73,7 @@
 
             #binding-cells = <2>;
             tapping-term-ms = <200>;
-        };
-
-    // ロータリーエンコーダ改造2
-    behaviors {
+        
         encoder_msc_down_up: encoder_msc_down_up {
             compatible = "zmk,behavior-sensor-rotate";
             label = "ENCODER_MSC_DOWN_UP";
