@@ -91,10 +91,10 @@
 
         default_layer {
             bindings = <
-&kp Q             &kp W         &kp E         &kp R                    &kp T                                                            &kp Y                   &kp U           &lt 5 I          &kp O                     &kp P
-&mt TAB A         &kp S         &kp D         &kp F                    &kp G        &kp PRINTSCREEN               &mt EQUAL MINUS       &kp H                   &kp J           &mt UNDER K      &kp L                     &lt_to_layer_0 4 LEFT_BRACKET
-&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                    &kp B        &mt LANGUAGE_2 SEMICOLON      &mt LANGUAGE_1 COLON  &mt EXCLAMATION N       &mt QUESTION M  &mt SLASH COMMA  &mt NON_US_BACKSLASH DOT  &mt RIGHT_SHIFT RIGHT_BRACKET
-&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 1 ESCAPE  &lt 2 SPACE  &lt_to_layer_0 3 TAB          &kp BACKSPACE         &lt_to_layer_0 6 ENTER                                                             &kp DELETE
+&kp Q             &kp W         &kp E         &kp R                    &kp T                                                            &kp Y                   &kp U  &lt 5 I          &kp O                     &kp P
+&mt TAB A         &kp S         &kp D         &kp F                    &kp G        &kp PRINTSCREEN               &mt EQUAL MINUS       &kp H                   &kp J  &kp K            &kp L                     &lt_to_layer_0 4 LBKT
+&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                    &kp B        &mt LANGUAGE_2 SEMICOLON      &mt LANGUAGE_1 COLON  &kp N                   &kp M  &mt SLASH COMMA  &mt NON_US_BACKSLASH DOT  &mt RIGHT_SHIFT RIGHT_BRACKET
+&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 1 ESCAPE  &lt 2 SPACE  &lt_to_layer_0 3 TAB          &kp BACKSPACE         &lt_to_layer_0 6 ENTER                                                    &kp DELETE
             >;
 
             // sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
